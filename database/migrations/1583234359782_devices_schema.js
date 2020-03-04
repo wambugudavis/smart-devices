@@ -6,7 +6,7 @@ const Schema = use('Schema')
 class DevicesSchema extends Schema {
   up () {
     this.create('devices', (table) => {
-      table.increments('serial')
+      table.increments()
       table.timestamps()
       table.integer('manufacturer_id').unsigned().references('manufacturer_id').inTable('manufacturers')
       table.text('description', 'longtext').notNullable()
