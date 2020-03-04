@@ -7,3 +7,9 @@ Factory.blueprint('App/Models/Device', (faker) => {
     description: faker.paragraph(),
   }
 });
+
+Factory.blueprint('App/Models/Manufacturer', (faker) => {
+  return {
+    name: faker.word({length: 3}),
+  }
+});

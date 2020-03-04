@@ -4,16 +4,17 @@
 const Schema = use('Schema')
 
 class DevicesSchema extends Schema {
-  up () {
+  up() {
     this.create('devices', (table) => {
+      table.engine('InnoDB')
       table.increments()
       table.timestamps()
-      table.integer('manufacturer_id').unsigned().references('manufacturer_id').inTable('manufacturers')
+      table.integer('manufacturer_id').unsigned().notNullable()
       table.text('description', 'longtext').notNullable()
     })
   }
 
-  down () {
+  down() {
     this.drop('devices')
   }
 }
