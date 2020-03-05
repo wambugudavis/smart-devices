@@ -1,6 +1,5 @@
 'use strict'
 const Device = use('App/Models/Device')
-const Manufacturer = use('App/Models/Manufacturer');
 
 class DeviceController {
   async store({request, response}) {
