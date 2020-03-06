@@ -16,7 +16,7 @@ module.exports = {
   | Function - Receives the current origin and should return one of the above values.
   |
   */
-  origin: ['http://localhost:8080','https://dwambugu-app.netlify.com'],
+  origin: ['http://localhost:8080','https://dwambugu-smart-devices.netlify.com'],
 
   /*
   |--------------------------------------------------------------------------
