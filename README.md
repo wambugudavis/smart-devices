@@ -45,7 +45,7 @@ node ace --help
 
 ## API Specification
 
-> [Full API Spec](https://github.com/gothinkster/realworld/tree/master/api)
+> [Full API Spec](https://github.com/wambugudavis/smart-devices/blob/master/APISpec.md)
 
 ## Built With
 
