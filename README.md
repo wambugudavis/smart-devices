@@ -1,5 +1,5 @@
 # Smart Devices API
-APIS that serve CRUD operations to be consumed on this [repository](https://github.com/wambugudavis/smart-devices/tree/deploy)
+APIS that serve CRUD operations to be consumed on this [repository](https://github.com/wambugudavis/smart-devices-app)
 ## Demo
 [App Demo](https://dwambugu-smart-devices.netlify.com/)
 
