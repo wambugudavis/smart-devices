@@ -5,6 +5,13 @@
  If the backend is about to run on a different host/port than the frontend, make sure to handle `OPTIONS` too and return correct `Access-Control-Allow-Origin` and `Access-Control-Allow-Headers` (e.g. `Content-Type`).
  Add an exception or rules to [``config/cors.js``](https://github.com/wambugudavis/smart-devices/blob/master/config/cors.js)
  
+ ### Postman Collection
+ Find an exported postman collection [here](https://github.com/wambugudavis/smart-devices/blob/master/Smart%20Devices%20APIs.postman_collection.json)
+ Configure your Environment to use the collection as follows(for local deployment):
+ 
+ ``devices_url`` : `localhost:3333/api/smart-devices` 
+ ``manufacturers_url`` : `localhost:3333/api/manufacturers`
+  
  ### Seeded Manufacturers
  
  ```JSON
