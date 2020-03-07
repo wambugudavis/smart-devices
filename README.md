@@ -23,9 +23,9 @@ Generate a new application key
 npx adonis key:generate
 ```
 
-Run migration
+Run migration and seeds
 ```bash
-adonis migration:run
+adonis migration:run --seed
 ```
 
 Start the local development server
